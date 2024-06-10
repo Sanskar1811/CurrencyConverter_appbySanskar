@@ -1,0 +1,67 @@
+/* General styling */
+* {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("p1.jpg");
+    background-size: cover; /* Makes background cover the entire screen */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    color: #333; /* Default text color */
+}
+
+/* Heading styling */
+h1 {
+    background-color: #ececec; 
+    color: #385170;
+    width: fit-content; /* Adjusts width to fit content */
+    padding: 20px 40px; /* Adds padding for better spacing */
+    border-radius: 15px; /* Makes the border radius more subtle */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    text-align: center; /* Centers text */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Button styling */
+.btn {
+    background-color: #007bff; /* Solid green color */
+    color: white;
+    padding: 10px 20px; /* Adds padding */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Adds slight border radius */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s; /* Adds transition effect on hover */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #00c400; /* Darkens green color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        width: 90%; /* Makes heading width responsive */
+        font-size: 1.5em; /* Adjusts font size */
+    }
+
+    .btn {
+        font-size: 1em; /* Adjusts button font size */
+        padding: 8px 16px; /* Adjusts button padding */
+    }
+}
+
+#amt {
+	font-size : 50px ;
+}
+
+
